@@ -1,0 +1,11 @@
+Update: add deep link intent-filter and SDK notes in manifest
+
+<!-- Example deep link - uncomment and adjust when integrating with real SDK -->
+<!--
+<intent-filter>
+    <action android:name="android.intent.action.VIEW" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <category android:name="android.intent.category.BROWSABLE" />
+    <data android:scheme="opay" android:host="callback" android:pathPrefix="/payment" />
+</intent-filter>
+-->
